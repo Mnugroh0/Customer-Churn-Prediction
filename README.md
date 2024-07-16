@@ -82,7 +82,7 @@ Several machine learning models were used to predict churn:
   - `n-neighbors`: Number of neighbors considered for classification
   - `weights`: Weights assigned to each neighbor
 
-- **Logistic Regression**: Uses a logistic function for classification. 
+- **Logistic Regression**: Uses a logistic function for classification. <br>
   Formula:
   $$P = \frac{1}{1 + e^{-(b_0 + b_1 \times X)}}$$
   - `random state`: Seed for randomness
@@ -97,10 +97,10 @@ Logistic Regression performed the best in this project, with higher metric value
 
 Precision and F1-score were used to evaluate the model's performance:
 
-- **Precision**: Indicates how many predicted positives are actual positives.
+- **Precision**: Indicates how many predicted positives are actual positives. <br>
   $$Precision = \frac{TP}{TP + FP}$$
 
-- **F1-Score**: Harmonic mean of precision and recall.
+- **F1-Score**: Harmonic mean of precision and recall. <br>
   $$F1-Score = 2 \times \frac{(precision \times recall)}{(precision + recall)}$$
 
   - TP: True Positives
